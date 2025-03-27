@@ -255,22 +255,34 @@ button {
   margin-top: 10px;
   margin-left: 10px;
 }
-@media screen and (min-width: 200px) and (max-width: 601px){
-  li{
-  width: 25%;
-  margin: 0;
-  padding: 0;
-  float: left;
-  box-sizing: border-box;    
-  display: block; 
-  text-align: center; 
-  }
-  ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    justify-content:space-evenly;
-    width: 100%;
-    position: flex;
-  }
- }
+@media screen and (max-width: 600px) {
+
+  ul {
+
+       text-align: center;
+
+       display: flex;
+
+       flex-wrap: wrap;
+
+}
+
+       li {
+
+           width: 100%;
+
+           margin: 0;
+
+           padding: 0;
+
+           float: left;
+
+           box-sizing: border-box;
+
+           display: block;
+
+           text-align: center;
+
+       }
+
+}
